@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "author": "Caleb Meredith <calebmeredith8@gmail.com>",
   "description": "A shared eslint config for all DevTips production JavaScript code",
+  "license": "MIT",
   "keywords": [
     "eslint",
     "eslintconfig"
