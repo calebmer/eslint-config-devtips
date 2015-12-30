@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-devtips",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "author": "Caleb Meredith <calebmeredith8@gmail.com>",
   "description": "A shared eslint config for all DevTips production JavaScript code",
   "license": "MIT",
