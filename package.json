@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-devtips",
+  "version": "0.0.0",
+  "author": "Caleb Meredith <calebmeredith8@gmail.com>",
+  "description": "A shared eslint config for all DevTips production JavaScript code",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "scripts": {
+    "release": "npm run release-patch",
+    "release-patch": "npm test && git checkout master && npm version patch && git push origin master --tags && npm publish",
+    "release-minor": "npm test && git checkout master && npm version minor && git push origin master --tags && npm publish",
+    "release-major": "npm test && git checkout master && npm version major && git push origin master --tags && npm publish"
+  },
+  "dependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint": "^1.10.3",
+    "eslint-plugin-import": "^0.12.1",
+    "eslint-plugin-lodash": "^0.1.4",
+    "eslint-plugin-mocha": "^1.1.0",
+    "eslint-plugin-react": "^3.11.3"
+  }
+}

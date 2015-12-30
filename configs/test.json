@@ -1,0 +1,26 @@
+{
+  "env": {
+    "mocha": true
+  },
+  "globals": {
+    "expect": true,
+    "spy": true,
+    "stub": true,
+    "calls": true
+  },
+  "plugins": [
+    "mocha"
+  ],
+  "rules": {
+    "consistent-return": 0,
+    "no-unused-expressions": 0,
+    "no-sync": 0,
+    "max-depth": 0,
+    "max-nested-callbacks": 0,
+
+    "mocha/no-exclusive-tests": 2,
+    "mocha/handle-done-callback": 0,
+    "mocha/no-synchronous-tests": 0,
+    "mocha/no-global-tests": 2
+  }
+}
