@@ -9,10 +9,8 @@
     "eslintconfig"
   ],
   "scripts": {
-    "release": "npm run release-patch",
-    "release-patch": "npm test && git checkout master && npm version patch && git push origin master --tags && npm publish",
-    "release-minor": "npm test && git checkout master && npm version minor && git push origin master --tags && npm publish",
-    "release-major": "npm test && git checkout master && npm version major && git push origin master --tags && npm publish"
+    "preversion": "git checkout master",
+    "postversion": "git push origin master --tags && npm publish"
   },
   "dependencies": {
     "babel-eslint": "^4.1.6",
