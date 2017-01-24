@@ -13,11 +13,11 @@
     "postversion": "git push origin master --tags && npm publish"
   },
   "dependencies": {
-    "babel-eslint": "^4.1.6",
-    "eslint": "^1.10.3",
-    "eslint-plugin-import": "^0.12.1",
-    "eslint-plugin-lodash": "^0.1.4",
-    "eslint-plugin-mocha": "^1.1.0",
-    "eslint-plugin-react": "^3.11.3"
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.14.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-lodash": "^2.3.2",
+    "eslint-plugin-mocha": "^4.8.0",
+    "eslint-plugin-react": "^6.9.0"
   }
 }
